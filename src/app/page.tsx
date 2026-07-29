@@ -13,8 +13,14 @@ export default function Home() {
           priority
         />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
+          <div
+            data-testid="verification-banner"
+            className="rounded-lg border border-blue-300 bg-blue-100 px-5 py-3 text-base font-semibold text-blue-900 dark:border-blue-700 dark:bg-blue-950 dark:text-blue-100"
+          >
+            Automated demo verification build
+          </div>
           <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
+            Bob the Bot reviews this page.
           </h1>
           <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
             Looking for a starting point or more instructions? Head over to{" "}
