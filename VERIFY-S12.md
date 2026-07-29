@@ -1,1 +1,1 @@
-Automated verification marker, fourth pass. Safe to delete.
+Automated verification marker, fifth pass - preview built from this exact head.
