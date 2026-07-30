@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -59,6 +60,12 @@ export default function Home() {
             Documentation
           </a>
         </div>
+        <Link
+          href="/todos"
+          className="text-base font-medium text-zinc-950 underline underline-offset-4 dark:text-zinc-50"
+        >
+          Go to the Todos page →
+        </Link>
       </main>
     </div>
   );
